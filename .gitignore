@@ -20,3 +20,5 @@ _site/
 /test/tmp/
 /test/version_tmp/
 /tmp/
+_drafts/
+vendor/
