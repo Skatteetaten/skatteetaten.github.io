@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: home
 ---
 
 ## Welcome
 
-Welcome to The Norwegian Tax Administration (Skatteetaten) on [GitHub](https://github.com/Skatteetaten/).
-
+Welcome to Skatteetaten (The Norwegian Tax Administration) on [GitHub](https://github.com/Skatteetaten).
