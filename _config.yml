@@ -13,3 +13,4 @@ exclude:
     - vendor
 category-list:
     - Development Documentation
+    - OpenShift
