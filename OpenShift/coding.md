@@ -1,7 +1,6 @@
 ---
 title: Coding
-layout: post
-category: OpenShift
+layout: page
 ---
 
 When coding an application or adapting an earlier application to OpenShift the following issues must be adressed:
@@ -13,9 +12,5 @@ When coding an application or adapting an earlier application to OpenShift the f
  - An application must handle SIGINT shutdown gracefully
  - An application must include the logback logfile from the $LOGBACK_FILE env var.
  - A Jenkinsfile, preferably using the shared jenkinsfile script
-
-
-An example metadata/openshift.json file can be found below.
-TODO: Include metadata/openshift.json file
 
 We provide a reference application written in Spring boot that handles all the above demands out of the box
