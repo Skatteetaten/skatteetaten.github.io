@@ -10,9 +10,6 @@ We call our platform `AuroraOpenshift` and the services we have created on top o
 
 ### The architecture behind AuroraOpenshift
 
-A team of developers [code](coding.html) an application, push it to git and it is automatically [built](build.html) . Openshift is then [setup](setup.html) in order to [deploy](deploy.html) our application. 
-
-
  * How to [code](coding.html) an application
  * How the application is [built](building.html) on Jenkins
  * How to [configure and setup](setup.html) the infrastructure on Openshift to deploy your application
