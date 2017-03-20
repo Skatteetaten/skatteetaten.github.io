@@ -3,7 +3,7 @@ title: Versioning
 layout: page
 ---
 
-When creating docker images with a dedicated builderImage and different base image we feel it is neccesary to version 
+When creating docker images with a dedicated builderImage and different base image we feel it is necessary to version 
 these in a way that makes it clear how to recreate the image at a later stage. The version scheme that is used can be seen 
 in the following diagram
 
@@ -19,9 +19,9 @@ When tagging a built DockerImage the rules are different based upon the kind of 
 
 ## Snapshot release
 When building a snapshot release you often want to just follow the latest snapshot built. In some cases you might want 
-to pin it to an exact buildnumber
+to pin it to an exact build number
 
 The following tags are created:
- - SNAPSHOT-**APPNAME**-**buildnumber**, buildnumber is fetched from Nexus
+ - SNAPSHOT-**APPNAME**-**buildnumber**, build number is fetched from Nexus
  -  **APPNAME**-SNAPSHOT
 
