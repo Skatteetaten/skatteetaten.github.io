@@ -1,0 +1,161 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// SITE THEME MODS
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  margin: 24px 0;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.main-content blockquote {
+  padding: 0;
+  border-left: none;
+
+  p {
+    display: inline;
+  }
+
+  &:before {
+    position: relative;
+    left: 0;
+  }
+}
+
+// DDH MODS
+html, body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a {
+  color: #1187bd;
+
+  &:visited {
+    color: #1187bd;
+  }
+}
+
+.ske-topp__logo {
+  background: url({{ '/assets/svg/ske-logo-intern.svg' | relative_url }}) no-repeat 50%;
+}
+
+.ske-topp__venstre-seksjon {
+  background: #328279;
+}
+
+.ske-topp__diagonal {
+  border-bottom-color: #328279;
+}
+
+.ske-topp__hoeyre-seksjon {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mdlext-light-color-theme a:visited {
+  color: #1187bd;
+}
+
+.mdlext-dark-color-theme a:visited {
+  color: #8ACCFF;
+}
+
+.ske-layout__venstre {
+  a {
+    padding: 2px 5px;
+    &:hover {
+      background: rgba(158, 158, 158, 0.2);
+      text-decoration: none;
+    }
+    &:focus {
+      background: rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  a.active {
+    background: #328279;
+    color: white;
+  }
+}
+
+// CUSTOM
+.ske-header__buttons {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+
+  a {
+    margin: 0 10px;
+  }
+}
+
+#markdown-toc {
+  display: none;
+}
+
+#toc-menu #markdown-toc {
+  display: block;
+  li > ul {
+    padding-left: 20px;
+  }
+}
+
+.ske-home {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.ske-repos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  a {
+    margin: 10px 0;
+  }
+}
+
+.ske-repo {
+  text-align: center;
+  display: block;
+  margin: 20px 10px;
+  margin-left: 0;
+  padding: 20px;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px -3px;
+
+  &:hover {
+    background: rgb(103, 170, 205);
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 840px) {
+  .ske-layout__venstre {
+    flex: 0 0 350px;
+  }
+
+  .ske-home {
+    min-width: 64rem;
+  }
+
+  .ske-repos {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    a {
+      margin-right: 20px;
+    }
+  }
+
+
+}

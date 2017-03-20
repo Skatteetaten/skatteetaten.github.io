@@ -1,23 +1,8 @@
 ---
 layout: default
 ---
-
-<div class="main-heading">
-  <img src="/images/Skatteetaten-logo.svg"/>
-  <h1>Skatteetaten on GitHub</h1>
+<div class="ske-home">
+  <section>
+    {{ content }}
+  </section>
 </div>
-
-{{ content }}
-
-{% for category in site.category-list  %}
-    <h2>{{category}}</h2>
-    <ul>
-    {% for post in site.posts | order: url %}
-      {% if post.category == category %}
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-{% endfor %}

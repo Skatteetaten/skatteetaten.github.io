@@ -1,16 +1,19 @@
-name: Skatteetaten on GitHub
+title: Skatteetaten
+description: on GitHub
+theme: jekyll-theme-cayman
 
-permalink: /:title/
+markdown: kramdown
 
-sass:
-    sass_dir: _scss
+collections:
+  docs:
+    output: true
 
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - vendor
-category-list:
-    - Development Documentation
-    - OpenShift
+menu:
+  show: true
+
+github:
+  is_project_page: false
+
+repos:
+  Aurora Openshift: /aurora-openshift
+  Datasamarbeid: /datasamarbeid-api-dokumentasjon
