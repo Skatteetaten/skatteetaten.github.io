@@ -3,16 +3,16 @@ title: Monitoring
 layout: page
 ---
 
-Applications running in our Openshift clusters expose data about their status in four major ways
+Applications running in our OpenShift clusters expose data about their status in four major ways
 * logs in splunk
 * metrics in grafana via prometheus
 * health checks in the application
 * state of the Openshift objects in the cluster
 
-An overall AuroraStatus for an application is calculated based upon the openshift objects and healthchecks
+An overall AuroraStatus for an application is calculated based upon the OpenShift objects and health checks.
 
 ## Splunk
-Indexing in splunk is configured when you set up an application. A preconfigured logback.xml configuration is available
+Indexing in Splunk is configured when you set up an application. A preconfigured logback.xml configuration is available
 in the docker image so that all applications log in the same pattern. 
 
 ## Metrics
@@ -23,14 +23,14 @@ metrics that it knows about itself and the running applications.
 Health checks from [SpringBoot](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#production-ready-health) 
 is used as the readiness check for application on OpenShift. 
 
-## Openshift objects
+## OpenShift objects
 Knowing the overall status of an application and alerting on that status is required.
 
-In order to find the status for an component we check the OpenShift objects for that application and fetch some information from the health check.
+In order to find the status for a component we check the OpenShift objects for that application and fetch some information from the health check.
 
 TODO: Insert rules for status here:
 
-All this information is aggregated into an status level of either DOWN, OBSERVE, HEALTHY or OFF
+All this information is aggregated into a status level of either DOWN, OBSERVE, HEALTHY or OFF.
 
 An endpoint exposing this information is periodically polled by an alerting system alerting the given ops personal if they need to take action.
 

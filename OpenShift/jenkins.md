@@ -3,16 +3,16 @@ title: Jenkins
 layout: post
 ---
 
-A seperate Jenkins instance is deployed for each unique affiliation. This Jenkins using the Bitbucket plugin to automatically create jenkins jobs for all repos/branches with Jenkinsfiles in them. 
+A separate Jenkins instance is deployed for each unique affiliation. This Jenkins uses the Bitbucket plugin to automatically create jenkins jobs for all repos/branches with Jenkinsfiles in them. 
 
 ## Jenkinsfile
-The flow of the jenkinsfile is as follows:
+The flow of the Jenkinsfile is as follows:
  - checkout code
  - auto-bump version
  - set name of build job to include version
  - compile and test
- - checkstyle
- - sonar
+ - Checkstyle
+ - Sonar
  - optional: pitest
  - deploy to Nexus with CLM check of 3rd party dependencies
  - setup/update a BuildConfig with latest semantic version
@@ -20,4 +20,4 @@ The flow of the jenkinsfile is as follows:
  
 
 ## Auto-bump version
-We use a maven/gradle plugin in order to automatically figure out thenext version number. More details on this process will be revealed when it is opensourced
+We use a maven/gradle plugin in order to automatically figure out the next version number. More details on this process will be revealed when it is open sourced.

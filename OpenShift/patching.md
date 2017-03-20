@@ -16,4 +16,4 @@ This is done the following way
 
 
 Improvement in the works:
-We are in the process of adding a seperate step in this process that includes setting up a one-shot environment on OpenShift with the given component to do a regression check of the new baseimage/buildlogic.
+We are in the process of adding a separate step in this process that includes setting up a one-shot environment on OpenShift with the given component to do a regression check of the new baseimage/buildlogic.
