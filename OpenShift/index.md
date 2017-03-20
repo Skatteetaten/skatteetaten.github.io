@@ -47,3 +47,6 @@ We call our platform `Aurora OpenShift` and the services we have created on top 
    - Build process (Jenkins)
  * Deploying an application and sets of applications with AOC
  * Managing applications with AOC and the Aurora Console
+ 
+ * Implementation details:
+   - A description of the underlying components and their role in the Aurora OpenShift platform
