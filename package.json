@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-skatteetaten-starter",
+  "description": "Gatsby Skatteetaten starter",
+  "version": "1.0.0",
+  "author": "Skatteetaten",
+  "dependencies": {
+    "aurora-frontend-react-komponenter": "^0.2.27",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-remark-prismjs": "^1.2.24",
+    "gatsby-source-filesystem": "^1.5.29",
+    "gatsby-transformer-remark": "^1.7.39",
+    "prismjs": "^1.14.0",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
