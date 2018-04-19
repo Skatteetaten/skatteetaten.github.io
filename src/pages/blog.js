@@ -8,8 +8,9 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
 
   return (
     <div>
+      <h1>Blogs</h1>
       {Posts}
-      <div style={{ marginBottom: '630px' }} />
+      <div style={{ marginBottom: '545px' }} />
     </div>
   )
 }
@@ -17,7 +18,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query BlogQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

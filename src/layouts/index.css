@@ -1,6 +1,13 @@
 body {
   margin: 0;
   margin-top: 10px;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 1.0625rem;
+  }
 }
 
 a {
@@ -34,7 +41,7 @@ tr {
   height: 56px;
   transition: background-color 0.3s ease;
   vertical-align: top;
-  line-height: 56px;
+  line-height: 32px;
 }
 
 th,
@@ -42,10 +49,7 @@ td {
   font-size: 17px;
   text-align: left;
   position: relative;
-}
-
-thead tr {
-  line-height: 52px;
+  padding: 10px 0;
 }
 
 td a {

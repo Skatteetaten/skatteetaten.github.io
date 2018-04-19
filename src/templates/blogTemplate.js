@@ -4,18 +4,26 @@ import Link from 'gatsby-link'
 
 export default function Template({ data }) {
   const { markdownRemark } = data
-  const { path, frontmatter, html } = markdownRemark
+  const { frontmatter, html } = markdownRemark
   return (
     <div>
-      <div>
+      <div
+        style={{
+          paddingTop: '15px',
+        }}
+      >
         <Breadcrumb
-          path={path}
-          renderLink={({ href, name }) => <a href={href}>{name}</a>}
+          path={frontmatter.path}
+          renderLink={({ href, name }) => (
+            <Link to={href} style={{ border: 'none' }}>
+              {name}
+            </Link>
+          )}
         />
       </div>
-      <div>
+      <div className="main-content">
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        {frontmatter.date && <h2>{frontmatter.date}</h2>}
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </div>

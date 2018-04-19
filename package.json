@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Skatteetaten",
   "dependencies": {
+    "@microsoft/load-themed-styles": "^1.7.50",
     "aurora-frontend-react-komponenter": "^0.2.27",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
@@ -11,6 +12,7 @@
     "gatsby-remark-prismjs": "^1.2.24",
     "gatsby-source-filesystem": "^1.5.29",
     "gatsby-transformer-remark": "^1.7.39",
+    "office-ui-fabric-react": "^5.82.3",
     "prismjs": "^1.14.0",
     "react-helmet": "^5.2.0"
   },

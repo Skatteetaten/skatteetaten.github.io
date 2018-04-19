@@ -1,6 +1,5 @@
 ---
-path: "/blog/Hendelsesliste"
-date: "2018-04-12"
+path: "/blog/hendelsesliste"
 title: Hendelsesliste
 ---
 
