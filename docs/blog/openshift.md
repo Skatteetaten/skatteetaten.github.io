@@ -1,5 +1,4 @@
 ---
-path: "/blog/openshift"
 date: "2018-04-10"
 title: "The Aurora OpenShift Platform"
 ---

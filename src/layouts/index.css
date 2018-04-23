@@ -73,3 +73,7 @@ th {
 .ske-main-layout {
   padding: 0;
 }
+
+a.anchor {
+  border: none;
+}

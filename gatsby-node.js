@@ -1,10 +1,3 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
-// You can delete this file if you're not using it
 let themeLoader = require('@microsoft/load-themed-styles')
 themeLoader.configureLoadStyles(styles => {
   // noop
@@ -14,39 +7,63 @@ let library = require('office-ui-fabric-react/lib/Utilities')
 library.setSSR(true)
 library.setRTL(false)
 
-const path = require('path')
+const path = require(`path`)
+const { createFilePath } = require('gatsby-source-filesystem')
+const _ = require('lodash')
+const slash = require(`slash`)
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
+exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
-
-  const blogPostTemplate = path.resolve(`src/templates/blogTemplate.js`)
-
-  return graphql(`
-    {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            frontmatter {
-              path
+  return new Promise((resolve, reject) => {
+    const blogPostTemplate = path.resolve('src/templates/blogTemplate.js')
+    // Query for markdown nodes to use in creating pages.
+    resolve(
+      graphql(
+        `
+          {
+            allMarkdownRemark(limit: 1000) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                }
+              }
             }
           }
+        `
+      ).then(result => {
+        if (result.errors) {
+          reject(result.errors)
         }
-      }
-    }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors)
-    }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-        context: {}, // additional data can be passed via context
+        // Create docs pages.
+        result.data.allMarkdownRemark.edges.forEach(edge => {
+          const slug = _.get(edge, `node.fields.slug`)
+          if (!slug) return
+
+          createPage({
+            path: `${edge.node.fields.slug}`, // required
+            component: slash(blogPostTemplate),
+            context: {
+              slug: edge.node.fields.slug,
+            },
+          })
+        })
+        return
       })
-    })
+    )
   })
+}
+
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+  const { createNodeField } = boundActionCreators
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `docs` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
 }

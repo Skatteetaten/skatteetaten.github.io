@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 
 export default function Template({ data }) {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, fields, html, tableOfContents } = markdownRemark
   return (
     <div>
       <div
@@ -13,7 +13,7 @@ export default function Template({ data }) {
         }}
       >
         <Breadcrumb
-          path={frontmatter.path}
+          path={fields.slug}
           renderLink={({ href, name }) => (
             <Link to={href} style={{ border: 'none' }}>
               {name}
@@ -21,6 +21,7 @@ export default function Template({ data }) {
           )}
         />
       </div>
+      <div dangerouslySetInnerHTML={{ __html: tableOfContents }} />
       <div className="main-content">
         <h1>{frontmatter.title}</h1>
         {frontmatter.date && <h2>{frontmatter.date}</h2>}
@@ -31,9 +32,13 @@ export default function Template({ data }) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query BlogPostByPath($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      tableOfContents
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
