@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Aurora OpenShift',
+    title: 'the Aurora Platform',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
