@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import Header from '../components/Header'
 import SkeBasis from 'aurora-frontend-react-komponenter/beholdere/SkeBasis/SkeBasis'
-import Toppbanner from 'aurora-frontend-react-komponenter/beholdere/Toppbanner/Toppbanner'
 import Bunn from 'aurora-frontend-react-komponenter/beholdere/Bunn/Bunn'
 import Grid from 'aurora-frontend-react-komponenter/beholdere/Grid/Grid'
 import './index.css'
@@ -24,11 +24,9 @@ const Layout = ({ children, data }) => (
         },
       ]}
     />
-    <Toppbanner
-      ekstern
-      hjemTekst="Github"
-      hjemURL="/"
-      tittel={data.site.siteMetadata.title}
+    <Header
+      title={data.site.siteMetadata.title}
+      style={{ marginBottom: '35px' }}
     />
     {children()}
     <Bunn showLogo="true">

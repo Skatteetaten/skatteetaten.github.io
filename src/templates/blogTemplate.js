@@ -11,6 +11,7 @@ const mainGrid = {
   lg: 8,
   lgPush: 2,
   xl: 6,
+  xlPush: 1,
   xxl: 6,
 }
 
