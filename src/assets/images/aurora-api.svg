@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="604.1522px" preserveAspectRatio="none" style="width:861px;height:604px;" version="1.1" viewBox="0 0 861 604" width="861.5917px" zoomAndPan="magnify"><defs><filter height="300%" id="f3dvo8prlkfkv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="4.1522491349480966"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="8.304498269896193" dy="8.304498269896193" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity App--><rect fill="#FEFECE" filter="url(#f3dvo8prlkfkv)" height="75.7542" rx="72.6644" ry="72.6644" style="stroke: #000000; stroke-width: 3.1141868512110724;" width="99.654" x="739.1003" y="495.1557"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="58.1315" x="759.8616" y="544.0176">App</text><!--entity Git--><path d="M90.3114,506.5744 C90.3114,485.8131 130.7958,485.8131 130.7958,485.8131 C130.7958,485.8131 171.2803,485.8131 171.2803,506.5744 L171.2803,559.4912 C171.2803,580.2525 130.7958,580.2525 130.7958,580.2525 C130.7958,580.2525 90.3114,580.2525 90.3114,559.4912 L90.3114,506.5744 " fill="#88D3E7" filter="url(#f3dvo8prlkfkv)" style="stroke: #808080; stroke-width: 3.1141868512110724;"/><path d="M90.3114,506.5744 C90.3114,527.3356 130.7958,527.3356 130.7958,527.3356 C130.7958,527.3356 171.2803,527.3356 171.2803,506.5744 " fill="none" style="stroke: #808080; stroke-width: 3.1141868512110724;"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="39.4464" x="111.0727" y="563.7408">Git</text><!--entity AuroraKonsole--><rect fill="#FFD086" filter="url(#f3dvo8prlkfkv)" height="75.7542" rx="25.9516" ry="25.9516" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="255.3633" x="104.8443" y="16.609"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="213.8408" x="125.6055" y="65.4709">AuroraKonsole</text><!--entity AO--><rect fill="#FFD086" filter="url(#f3dvo8prlkfkv)" height="75.7542" rx="25.9516" ry="25.9516" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="85.1211" x="432.872" y="16.609"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="43.5986" x="453.6332" y="65.4709">AO</text><!--entity AuroraApi--><rect fill="#FFD086" filter="url(#f3dvo8prlkfkv)" height="75.7542" rx="25.9516" ry="25.9516" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="188.9273" x="380.9689" y="251.2111"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="147.4048" x="401.7301" y="300.073">AuroraApi</text><!--entity Jenkins--><rect fill="#FFD086" filter="url(#f3dvo8prlkfkv)" height="75.7542" rx="25.9516" ry="25.9516" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="143.2526" x="590.6574" y="16.609"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="101.7301" x="611.4187" y="65.4709">Jenkins</text><!--entity AuroraConfig--><polygon fill="#FEFECE" filter="url(#f3dvo8prlkfkv)" points="12.4567,251.2111,12.4567,326.9653,249.1349,326.9653,249.1349,271.9723,228.3737,251.2111,12.4567,251.2111" style="stroke: #000000; stroke-width: 3.1141868512110724;"/><path d="M228.3737,251.2111 L228.3737,271.9723 L249.1349,271.9723 " fill="#FEFECE" style="stroke: #000000; stroke-width: 3.1141868512110724;"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="195.1557" x="33.218" y="300.073">AuroraConfig</text><!--entity kubernetes--><rect fill="#E4E48E" filter="url(#f3dvo8prlkfkv)" height="75.7542" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="201.3841" x="374.7405" y="495.1557"/><rect fill="#E4E48E" height="10.3806" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="20.7612" x="364.3599" y="505.5363"/><rect fill="#E4E48E" height="10.3806" style="stroke: #808080; stroke-width: 3.1141868512110724;" width="20.7612" x="364.3599" y="550.1487"/><text fill="#000000" font-family="sans-serif" font-size="29.0657" lengthAdjust="spacingAndGlyphs" textLength="159.8616" x="395.5017" y="544.0176">kubernetes</text><!--link AuroraConfig to Git--><path d="M130.7958,336.6598 C130.7958,379.7122 130.7958,442.4763 130.7958,485.2742 " fill="none" id="AuroraConfig-Git" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="130.7958,326.1631,122.4913,344.8482,130.7958,336.5437,139.1003,344.8482,130.7958,326.1631" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="112.1107" x="132.872" y="416.4049">provides</text><!--link Jenkins to AuroraApi--><path d="M632.2628,91.6721 C599.5738,132.7152 547.2758,198.3781 512.1617,242.4658 " fill="none" id="Jenkins-AuroraApi" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="505.379,250.9821,523.5157,241.5398,511.8461,242.8621,510.5237,231.1924,505.379,250.9821" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="45.6747" x="581.3149" y="181.8028">use</text><!--link AO to AuroraApi--><path d="M475.4325,91.6721 C475.4325,132.0311 475.4325,196.1963 475.4325,240.2437 " fill="none" id="AO-AuroraApi" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="475.4325,250.9821,483.737,232.297,475.4325,240.6015,467.128,232.297,475.4325,250.9821" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="45.6747" x="477.5087" y="181.8028">use</text><!--link AuroraKonsole to AuroraApi--><path d="M271.5531,91.6721 C314.4031,133.0572 383.1712,199.4743 428.821,243.5635 " fill="none" id="AuroraKonsole-AuroraApi" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="436.5023,250.9821,428.8312,232.0281,429.0355,243.7707,417.2929,243.9749,436.5023,250.9821" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="45.6747" x="371.6263" y="181.8028">use</text><!--link AuroraConfig to AuroraApi--><path d="M260.5451,288.5813 C300.3911,288.5813 343.4765,288.5813 380.5322,288.5813 " fill="none" id="AuroraConfig-AuroraApi" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="249.4003,288.5813,268.0854,296.8858,259.7809,288.5813,268.0854,280.2768,249.4003,288.5813" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="56.0554" x="287.0242" y="275.2284">read</text><!--link AuroraApi to kubernetes--><path d="M475.4325,326.1631 C475.4325,368.4787 475.4325,437.3743 475.4325,483.7939 " fill="none" id="AuroraApi-kubernetes" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="475.4325,494.4997,483.737,475.8145,475.4325,484.119,467.128,475.8145,475.4325,494.4997" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="255.3633" x="477.5087" y="416.4049">add/update objects</text><!--link kubernetes to App--><path d="M576.3498,532.526 C626.1826,532.526 684.6754,532.526 727.6758,532.526 " fill="none" id="kubernetes-App" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><polygon fill="#000000" points="738.2595,532.526,719.5744,524.2215,727.8789,532.526,719.5744,540.8304,738.2595,532.526" style="stroke: #000000; stroke-width: 2.0761245674740483;"/><text fill="#000000" font-family="sans-serif" font-size="26.9896" lengthAdjust="spacingAndGlyphs" textLength="87.1972" x="614.0138" y="519.1731">deploy</text><!--
+@startuml
+scale 600 height
+skinparam database {
+    BackgroundColor #88D3E7
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+skinparam queue {
+    BackgroundColor #E4E48E
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam component {
+    BackgroundColor #E4E48E
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam artifact {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+skinparam folder {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam interface {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam node {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam actor {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam frame {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+
+
+skinparam rectangle {
+    BackgroundColor #FFD086
+    BorderColor gray
+    ArrowColor black
+	  roundCorner 25
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+
+skinparam state {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam activity {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+
+}
+
+skinparam note {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+}
+skinparam  BackgroundColor white
+
+
+
+storage App
+
+database Git
+rectangle AuroraKonsole
+rectangle AO
+rectangle AuroraApi
+
+rectangle Jenkins
+file AuroraConfig
+
+AuroraConfig <-down- Git: provides
+
+Jenkins - -> AuroraApi : use
+component kubernetes
+
+AO - -> AuroraApi :  use
+AuroraKonsole - -> AuroraApi:   use
+AuroraApi -left-> AuroraConfig :  read
+AuroraApi -down-> kubernetes : add/update objects
+kubernetes -right-> App : deploy
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2018.01(Sun Jan 28 19:08:22 CET 2018)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_152-release-1136-b20
+Operating System: Mac OS X
+OS Version: 10.13.3
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,94 @@
+
+//banner
+Faster development and more efficient ops at NTA
+
+<h2>The Aurora Plattform is a <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a>
+Built upon <a href="https://www.openshift.com">OpenShift</a>. </h2>urora Plattform is a <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a>
+6   built upon <a href="https://www.openshift.com">OpenShift</a>. </h2>
+  1
+  2 At the core of the plattform is the declerative config format [AuroraConfig](auroraConfig) and the AuroraAPI.
+  3
+  4 The AuroraAPI supports deploying applications and observing their status while running.
+  5
+  6 Building applications from source is done in the AuroraPipeline that uses a central build logic.
+
+At the core of the plattform is the declerative config format [AuroraConfig](auroraConfig) and the AuroraAPI.
+
+The AuroraAPI supports deploying applications and observing their status while running. 
+
+Building applications from source is done in the AuroraPipeline that uses a central build logic.
+</p>
+
+
+<h2>Key reasons why we have made our own platform?</h2>
+<ul class="reason">
+<li>
+Both Kubernetes and OpenShift lack a concept we have called <b>affiliation</b>. That is groups of people that can administer or view objects for several projects.
+We have several different development teams that work on our clusters and we want them to be able to work in <b>isolation</b>.
+</li>
+
+<li>The ability to deploy applications to <b>several clusters</b> in one command is highly desired within our organization. Our network infrastructure implies that we need to have multiple clusters.</li>
+
+<li>When configuring how to deploy applications and projects we want to avoid duplication. Our <b>declarative</b> config format AuroraConfig supports <b>composition</b> with <b>sane defaults</b>.</li>
+</ul>
+
+        </Grid.Col>
+      </Grid.Row>
+
+
+<p>In order to avoid 'wall-of-yaml' we use a declarative, composable configuration format with sane defaults. - Bjarte Karlsen, Technical Architect NTA</p>
+
+          <h1>How do we deploy?</h1>
+          <p>
+
+            We started out using [OpenShift
+            Templates](https://docs.openshift.org/latest/dev_guide/templates.html)
+            in 2015. A go-template based template engine that takes a list of
+            parameters and replaces it into objects before applying them to the
+            cluster. For our needs this technology was and is severly lacking. -
+            no support for conditional logic - no support for loops - no support
+            for optionaly including and entire object We then created a bash
+            wrapper around the templates that would generate objects for it and
+            modify them afterwards. The config for this bash wrapper resided
+            along side the application code. After som experience with this we
+            found several issues with it - writing good bash is hard and testing
+            tools are lacking - no client-server model, so we had to duplicate
+            functionality in web dashboard - you had to commit and change code
+            in repo to change config. That means triggereing new jenkins builds
+            when not really needed. This lead to the design of the start of the
+            AuroraAPI with the [boober](aurorapi/boober),
+            [AuroraConfig](auroraConfig) and [ao](tools/ao) components.
+          </p>
+        </Grid.Col>
+      </Grid.Row>
+      <Grid.Row className="info-row">
+        <Grid.Col {...howGrid}>
+          <img
+            src={auroraApi}
+            style={{ maxWidth: '100%', maxHeight: '100%' }}
+          />
+        </Grid.Col>
+      </Grid.Row>
+      <InfoSeparator gridSpec={howGrid} />
+      <Grid.Row className="info-row">
+        <Grid.Col {...howGrid}>
+          <h1>Runtime</h1>
+        </Grid.Col>
+      </Grid.Row>
+      <Grid.Row className="info-row">
+        <Grid.Col {...infoGrid}>
+          <img
+            src={auroraApiRuntime}
+            style={{ maxWidth: '100%', maxHeight: '600px' }}
+          />
+        </Grid.Col>
+        <Grid.Col {...infoGrid}>
+          <p>
+            We started out using [OpenShift
+            Templates](https://docs.openshift.org/latest/dev_guide/templates.html)
+            in 2015. A go-template based template engine that takes a list of
+            parameters and replaces it into objects before applying them to the
+            cluster. For our needs this technology was and is severly lacking. -
+            no support for conditional logic - no support for loops - no support
+          </p>
+        </Grid.Col>

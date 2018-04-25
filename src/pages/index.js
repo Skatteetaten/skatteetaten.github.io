@@ -2,16 +2,9 @@ import React from 'react'
 import PostLink from '../components/post-link'
 import Quote from '../components/Quote'
 import Grid from 'aurora-frontend-react-komponenter/beholdere/Grid/Grid'
-import auroraApi from '../assets/images/auroraApi.svg'
-import auroraApiRuntime from '../assets/images/auroraRun.svg'
-
-const InfoSeparator = ({ gridSpec }) => (
-  <Grid.Row>
-    <Grid.Col {...gridSpec}>
-      <hr />
-    </Grid.Col>
-  </Grid.Row>
-)
+import auroraApi from '../assets/images/aurora-api.svg'
+import auroraObserve from '../assets/images/aurora-run.svg'
+import auroraBuild from '../assets/images/aurora-build.svg'
 
 const doubleColGrid = {
   sm: 10,
@@ -34,6 +27,35 @@ const singleColGrid = {
   xxlPush: 3,
 }
 
+const InfoSeparator = () => (
+  <Grid.Row>
+    <Grid.Col {...singleColGrid}>
+      <hr style={{ margin: '30px 0' }} />
+    </Grid.Col>
+  </Grid.Row>
+)
+
+const InfoRow = ({ title, picture, children, left }) => {
+  const Picture = () => (
+    <Grid.Col {...doubleColGrid}>
+      <img src={picture} style={{ maxWidth: '100%', maxHeight: '600px' }} />
+    </Grid.Col>
+  )
+
+  return (
+    <div>
+      <Grid.Row>
+        {left && <Picture />}
+        <Grid.Col {...doubleColGrid}>
+          {title && <h2>{title}</h2>}
+          {children}
+        </Grid.Col>
+        {!left && <Picture />}
+      </Grid.Row>
+    </div>
+  )
+}
+
 const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const FrontendContent = ({ path }) => {
     const content = edges.find(edge => {
@@ -44,55 +66,49 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
     )
   }
 
+  const WhatAndWhyRow = () => (
+    <Grid.Row>
+      <Grid.Col {...doubleColGrid}>
+        <FrontendContent path="/frontpage/faster-development/" />
+      </Grid.Col>
+      <Grid.Col {...doubleColGrid}>
+        <FrontendContent path="/frontpage/why/" />
+      </Grid.Col>
+    </Grid.Row>
+  )
+
   return (
-    <Grid className="info-grid">
-      <Grid.Row>
-        <Grid.Col {...doubleColGrid}>
-          <h1>What?</h1>
-          <FrontendContent path="/frontpage/what/" />
-        </Grid.Col>
-        <Grid.Col {...doubleColGrid}>
-          <h1>Why?</h1>
-          <FrontendContent path="/frontpage/why/" />
-        </Grid.Col>
-      </Grid.Row>
-      <Quote source="Bjarte" style={{ margin: '20px 0' }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna
-        lorem, aliquam a faucibus id, tempor vitae est. Ut at leo id ex
-        ultricies fermentum.
+    <div>
+      <Grid className="info-grid">
+        <WhatAndWhyRow />
+      </Grid>
+
+      <Quote
+        source="Bjarte Karlsen, Technical Architect NTA"
+        style={{ margin: '30px 0' }}
+      >
+        In order to avoid 'wall-of-yaml' we use a declarative, composable
+        configuration format with sane defaults.
       </Quote>
-      <Grid.Row>
-        <Grid.Col {...singleColGrid}>
-          <h1>How?</h1>
-          <FrontendContent path="/frontpage/how/" />
-        </Grid.Col>
-      </Grid.Row>
-      <Grid.Row>
-        <Grid.Col {...singleColGrid}>
-          <img
-            src={auroraApi}
-            style={{ maxWidth: '100%', maxHeight: '100%' }}
-          />
-        </Grid.Col>
-      </Grid.Row>
-      <InfoSeparator gridSpec={singleColGrid} />
-      <Grid.Row>
-        <Grid.Col {...singleColGrid}>
-          <h1>Runtime</h1>
-        </Grid.Col>
-      </Grid.Row>
-      <Grid.Row>
-        <Grid.Col {...doubleColGrid}>
-          <img
-            src={auroraApiRuntime}
-            style={{ maxWidth: '100%', maxHeight: '600px' }}
-          />
-        </Grid.Col>
-        <Grid.Col {...doubleColGrid}>
-          <FrontendContent path="/frontpage/runtime/" />
-        </Grid.Col>
-      </Grid.Row>
-    </Grid>
+
+      <Grid className="info-grid">
+        <InfoRow picture={auroraApi}>
+          <FrontendContent path="/frontpage/deploy/" />
+        </InfoRow>
+
+        <InfoSeparator />
+
+        <InfoRow picture={auroraBuild} left>
+          <FrontendContent path="/frontpage/build/" />
+        </InfoRow>
+
+        <InfoSeparator />
+
+        <InfoRow picture={auroraObserve}>
+          <FrontendContent path="/frontpage/observe/" />
+        </InfoRow>
+      </Grid>
+    </div>
   )
 }
 
