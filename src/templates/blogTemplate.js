@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrumb from 'aurora-frontend-react-komponenter/innhold/Breadcrumb/Breadcrumb'
+import Breadcrumb from '../components/Breadcrumb'
 import Grid from 'aurora-frontend-react-komponenter/beholdere/Grid/Grid'
 import Link from 'gatsby-link'
 
