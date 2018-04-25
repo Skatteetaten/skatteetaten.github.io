@@ -2,7 +2,7 @@ import React from 'react'
 import PostLink from '../components/post-link'
 import Grid from 'aurora-frontend-react-komponenter/beholdere/Grid/Grid'
 import auroraApi from './auroraApi.svg'
-import auroraApiRuntime from './auroraApiRuntime.svg'
+import auroraApiRuntime from './auroraRun.svg'
 
 const InfoSeparator = ({ gridSpec }) => (
   <Grid.Row>
@@ -24,18 +24,18 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
     mdPush: 1,
     lg: 10,
     lgPush: 1,
-    xl: 4,
-    xlPush: 2,
-    xxl: 4,
-    xxlPush: 2,
+    xl: 3,
+    xlPush: 3,
+    xxl: 3,
+    xxlPush: 3,
   }
 
   const howGrid = {
     ...infoGrid,
-    xl: 8,
-    xlPush: 2,
-    xxl: 8,
-    xxlPush: 2,
+    xl: 6,
+    xlPush: 3,
+    xxl: 6,
+    xxlPush: 3,
   }
 
   return (
