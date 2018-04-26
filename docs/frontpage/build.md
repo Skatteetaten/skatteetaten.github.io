@@ -1,6 +1,6 @@
 ## How do we build
 
-* [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service) built upon [OpenShift](http://www.openshift.com)
-* At the core of the plattform is the declerative config format [AuroraConfig](auroraConfig) and the AuroraAPI.
-* The AuroraAPI supports deploying applications and observing their status while running.
-* Building applications from source is done in the AuroraPipeline that uses a central build logic.
+Building an image is done with out central build logic [architect](aurora#architect). Triggering a build can be done in several ways:
+* via [AuroraPipeline](aurora#auroraPipeline) as a [semanic release](aurora#semantic) or as a [wip/branch build](aurora#snapshot-build)
+* as a binary-build directly from a local client for wip [development flow](aurora#development-flow) builds. This will buypass Nexus and read DeliveryBundle from stdin 
+* when the build logic or base image changes a trigger will be fired to rebuild  
