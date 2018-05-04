@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="600px" preserveAspectRatio="none" style="width:641px;height:600px;" version="1.1" viewBox="0 0 641 600" width="641.6107px" zoomAndPan="magnify"><defs><filter height="300%" id="f1cr0ep4giu235" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.684563758389262"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.369127516778524" dy="5.369127516778524" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity DockerRegistry--><path d="M461.0738,484.5638 C461.0738,471.1409 543.6242,471.1409 543.6242,471.1409 C543.6242,471.1409 626.1745,471.1409 626.1745,484.5638 L626.1745,518.7762 C626.1745,532.199 543.6242,532.199 543.6242,532.199 C543.6242,532.199 461.0738,532.199 461.0738,518.7762 L461.0738,484.5638 " fill="#88D3E7" filter="url(#f1cr0ep4giu235)" style="stroke: #808080; stroke-width: 2.0134228187919465;"/><path d="M461.0738,484.5638 C461.0738,497.9866 543.6242,497.9866 543.6242,497.9866 C543.6242,497.9866 626.1745,497.9866 626.1745,484.5638 " fill="none" style="stroke: #808080; stroke-width: 2.0134228187919465;"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="138.255" x="474.4966" y="521.5237">DockerRegistry</text><!--entity Nexus--><path d="M95.9732,52.349 C95.9732,38.9262 138.255,38.9262 138.255,38.9262 C138.255,38.9262 180.5369,38.9262 180.5369,52.349 L180.5369,86.5615 C180.5369,99.9843 138.255,99.9843 138.255,99.9843 C138.255,99.9843 95.9732,99.9843 95.9732,86.5615 L95.9732,52.349 " fill="#88D3E7" filter="url(#f1cr0ep4giu235)" style="stroke: #808080; stroke-width: 2.0134228187919465;"/><path d="M95.9732,52.349 C95.9732,65.7718 138.255,65.7718 138.255,65.7718 C138.255,65.7718 180.5369,65.7718 180.5369,52.349 " fill="none" style="stroke: #808080; stroke-width: 2.0134228187919465;"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="57.7181" x="109.396" y="89.3089">Nexus</text><!--entity architect--><rect fill="#FEFECE" filter="url(#f1cr0ep4giu235)" height="81.8477" rx="46.9799" ry="46.9799" style="stroke: #000000; stroke-width: 2.0134228187919465;" width="177.1812" x="186.5772" y="230.8725"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="150.3356" x="200" y="262.4633">aurora/architect</text><line style="stroke: #000000; stroke-width: 1.342281879194631;" x1="187.9195" x2="362.4161" y1="266.4272" y2="266.4272"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="46.9799" x="208.0537" y="289.9643">1.8.0</text><!--entity wrench--><rect fill="#FEFECE" filter="url(#f1cr0ep4giu235)" height="81.8477" rx="46.9799" ry="46.9799" style="stroke: #000000; stroke-width: 2.0134228187919465;" width="165.1007" x="461.0738" y="230.8725"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="138.255" x="474.4966" y="262.4633">aurora/wrench</text><line style="stroke: #000000; stroke-width: 1.342281879194631;" x1="462.4161" x2="624.8322" y1="266.4272" y2="266.4272"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="71.1409" x="482.5503" y="289.9643">8.162.1</text><!--entity BuildConfig--><rect fill="#E4E48E" filter="url(#f1cr0ep4giu235)" height="117.4025" style="stroke: #808080; stroke-width: 2.0134228187919465;" width="198.6577" x="314.094" y="10.7383"/><rect fill="#E4E48E" height="13.4228" style="stroke: #808080; stroke-width: 2.0134228187919465;" width="20.1342" x="485.906" y="17.4497"/><rect fill="#E4E48E" height="2.6846" style="stroke: #808080; stroke-width: 2.0134228187919465;" width="5.3691" x="483.2215" y="20.1342"/><rect fill="#E4E48E" height="2.6846" style="stroke: #808080; stroke-width: 2.0134228187919465;" width="5.3691" x="483.2215" y="25.5034"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="107.3826" x="334.2282" y="55.7519">BuildConfig</text><line style="stroke: #808080; stroke-width: 1.342281879194631;" x1="315.4362" x2="511.4094" y1="59.7158" y2="59.7158"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="100.6711" x="342.2819" y="83.2529">name=app</text><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="128.8591" x="342.2819" y="105.3849">version=1.2.3</text><!--entity app--><rect fill="#FEFECE" filter="url(#f1cr0ep4giu235)" height="170.3754" rx="46.9799" ry="46.9799" style="stroke: #000000; stroke-width: 2.0134228187919465;" width="319.4631" x="8.0537" y="416.1074"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="34.8993" x="21.4765" y="447.6982">app</text><line style="stroke: #000000; stroke-width: 1.342281879194631;" x1="9.396" x2="326.1745" y1="451.6621" y2="451.6621"/><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="49.6644" x="29.5302" y="475.1992">latest</text><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="12.0805" x="29.5302" y="497.3312">1</text><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="29.5302" x="29.5302" y="519.4631">1.2</text><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="46.9799" x="29.5302" y="541.595">1.2.3</text><text fill="#000000" font-family="sans-serif" font-size="18.7919" lengthAdjust="spacingAndGlyphs" textLength="276.5101" x="29.5302" y="563.7269">1.2.3-b1.8.0-wrench-8.162.1</text><!--link BuildConfig to architect--><path d="M393.7064,127.8936 C385.3168,148.6774 374.3648,171.5956 361.0738,190.604 C352.4832,202.8902 341.8007,214.7768 330.9196,225.4914 " fill="none" id="BuildConfig-architect" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="325.5703,230.6538,337.9915,226.1283,330.3996,225.9933,330.5346,218.4014,325.5703,230.6538" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="158.3893" x="374.4966" y="185.9978">use CustomBuilder</text><!--link Nexus to architect--><path d="M127.1925,106.6796 C121.9666,132.0506 119.6549,165.3877 134.2282,190.604 C146.1685,211.2644 165.5819,227.1336 186.2341,239.1234 " fill="none" id="Nexus-architect" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="128.7321,99.7483,120.871,110.3771,127.2767,106.3,131.3538,112.7057,128.7321,99.7483" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="218.7919" x="135.5705" y="185.9978">fetch DeliveryBundle from</text><!--link architect to wrench--><path d="M363.8145,271.8121 C392.7995,271.8121 425.0021,271.8121 454.0548,271.8121 " fill="none" id="architect-wrench" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="460.978,271.8121,448.8974,266.443,454.2666,271.8121,448.8974,277.1812,460.978,271.8121" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="48.3221" x="388.255" y="263.179">FROM</text><!--link architect to app--><path d="M255.9699,312.8475 C243.3623,339.7965 226.3541,376.1514 210.6385,409.7435 " fill="none" id="architect-app" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="207.7204,415.9808,217.703,407.3139,210.5645,409.9018,207.9766,402.7633,207.7204,415.9808" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="68.4564" x="234.8993" y="371.2327">produce</text><!--link wrench to DockerRegistry--><path d="M543.6242,312.8475 C543.6242,355.7546 543.6242,422.506 543.6242,463.9859 " fill="none" id="wrench-DockerRegistry" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="543.6242,470.9217,548.9933,458.8412,543.6242,464.2103,538.255,458.8412,543.6242,470.9217" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="72.4832" x="544.9664" y="371.2327">contains</text><!--link architect to DockerRegistry--><path d="M323.1624,312.8475 C374.3831,356.6412 454.656,425.2745 502.9013,466.5242 " fill="none" id="architect-DockerRegistry" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="508.0446,470.9217,502.3518,458.9903,502.9435,466.5603,495.3735,467.152,508.0446,470.9217" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="72.4832" x="394.6309" y="371.2327">contains</text><!--link app to DockerRegistry--><path d="M327.7197,501.3423 C370.7914,501.3423 415.8695,501.3423 453.6282,501.3423 " fill="none" id="app-DockerRegistry" style="stroke: #000000; stroke-width: 1.342281879194631;"/><polygon fill="#000000" points="460.5911,501.3423,448.5106,495.9732,453.8797,501.3423,448.5106,506.7114,460.5911,501.3423" style="stroke: #000000; stroke-width: 1.342281879194631;"/><text fill="#000000" font-family="sans-serif" font-size="17.4497" lengthAdjust="spacingAndGlyphs" textLength="84.5638" x="352.0134" y="492.7092">pushed to</text><!--
+@startuml
+scale 600 height
+skinparam database {
+    BackgroundColor #88D3E7
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+skinparam queue {
+    BackgroundColor #E4E48E
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam component {
+    BackgroundColor #E4E48E
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam artifact {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+skinparam folder {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam interface {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam node {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam actor {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam frame {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+
+
+skinparam rectangle {
+    BackgroundColor #FFD086
+    BorderColor gray
+    ArrowColor black
+	  roundCorner 25
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+
+skinparam state {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+}
+
+skinparam activity {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+    ArrowColor black
+
+    BackgroundColor<<OS1>> #FFD086
+    BackgroundColor<<OS2>> #88D3E7
+    BackgroundColor<<OS3>> #E4E48E
+    BackgroundColor<<OS4>> #DF4661
+
+    BackgroundColor<<AOT>> #FFD086
+    BackgroundColor<<AOS>> #88D3E7
+    BackgroundColor<<SITJ>> #E4E48E
+    BackgroundColor<<ANNET>> #DF4661
+
+}
+
+skinparam note {
+    BackgroundColor #fdf6e3
+    BorderColor gray
+}
+skinparam  BackgroundColor white
+
+
+
+database DockerRegistry
+database Nexus
+
+storage  architect [
+aurora/architect
+- - -
+1.8.0
+]
+
+storage wrench [
+aurora/wrench
+- - -
+8.162.1
+]
+
+
+component BuildConfig [
+BuildConfig
+- -
+name=app
+version=1.2.3
+]
+
+
+storage app [
+app
+- - -
+latest
+1
+1.2
+1.2.3
+1.2.3-b1.8.0-wrench-8.162.1
+]
+
+BuildConfig -down-> architect: use CustomBuilder
+architect -up-> Nexus: fetch DeliveryBundle from
+architect -right-> wrench: FROM
+architect - -> app : produce
+
+wrench - -> DockerRegistry: contains
+architect - -> DockerRegistry: contains
+app -right-> DockerRegistry: pushed to
+@enduml
+
+PlantUML version 1.2018.01(Sun Jan 28 19:08:22 CET 2018)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_152-release-1136-b20
+Operating System: Mac OS X
+OS Version: 10.13.3
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

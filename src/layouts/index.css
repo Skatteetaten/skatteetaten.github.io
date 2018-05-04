@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 1.0625rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Gugi', cursive;
+}
+
+a {
+  color: rgba(19, 98, 174, 1);
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid rgba(19, 98, 174, 0.25);
+  transition: border-color 0.5s;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  border-color: rgba(19, 98, 174, 1);
+  transition: border-color 0.5s;
+}
+
+code {
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  padding-left: 24px;
+}
+
+tr {
+  border-bottom: 1px solid #bbbbbb;
+  height: 56px;
+  transition: background-color 0.3s ease;
+  vertical-align: top;
+  line-height: 32px;
+}
+
+th,
+td {
+  font-size: 17px;
+  text-align: left;
+  position: relative;
+  padding: 10px 0;
+}
+
+td a {
+  border: none;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 16px;
+}
+
+th:last-child,
+td:last-child {
+  padding-left: 16px;
+}
+
+th {
+  font-size: 15px;
+}
+
+.ske-main-layout {
+  padding: 0;
+}
+
+a.anchor {
+  border: none;
+}
