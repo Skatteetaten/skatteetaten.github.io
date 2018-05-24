@@ -15,6 +15,6 @@ github:
   is_project_page: false
 
 repos:
-  Aurora Openshift: /aurora-openshift
+  Aurora Openshift: /aurora
   Datasamarbeid: /datasamarbeid-api-dokumentasjon
   Folkeregisteret: /folkeregisteret-api-dokumentasjon
