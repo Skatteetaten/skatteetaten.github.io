@@ -1,35 +1,26 @@
-# [skatteetaten.github.io] (https://skatteetaten.github.io)
+# [skatteetaten.github.io](https://skatteetaten.github.io)
 
-Information about the Skatteetaten GitHub organisation, repositories and approaches to software
+## Initial setup
 
-## Getting Started
+Getting the gatsby-starter-skatteetaten module
 
+    git submodule init
+    git submodule update
 
-### Requirements
+## Developing
 
-* [Ruby](https://www.ruby-lang.org/) 
-	* `> 2.0.0`
-* [Bundler](http://bundler.io/) 
-	* `gem install bundler`
+Run
 
-### Running locally
+    npm install
 
-* Clone this repo
-* Run `bundle install`
-* Run `bundle exec jekyll serve`
-* Open a browser at [http://localhost:4000](http://localhost:4000)
+to install the dependencies.
 
+    npm start
 
-## Making changes
+will start a local web server and continuously build the documentation as you make changes.
 
-* Create/edit `.md` files in the `/_posts/` folder
-* Directory structure gets turned into urls
-	* i.e. `/pages/foo/bar/index.md` becomes `localhost:4000/pages/foo/bar`
-* Make sure to include a title, set the layout to **post**, and set the category to one that exists in the category-list in _config.yml, at the top of each page like so:
-```
----
-title: New Sample Article
-layout: page
-category: Development Documentation
----
-```
+## Deploying to github pages
+
+To update the gh-pages branch and in turn publish to your repository run
+
+    npm run deploy
