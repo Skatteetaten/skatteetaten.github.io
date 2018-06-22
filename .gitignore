@@ -4,21 +4,10 @@
 *.iws
 .idea
 
-### Jekyll template
-_site/
-.sass-cache/
-.jekyll-metadata
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
 
-### Ruby ###
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/test/tmp/
-/test/version_tmp/
-/tmp/
-_drafts/
-vendor/
+# Build directory
+/public
