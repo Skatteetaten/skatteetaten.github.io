@@ -12,19 +12,20 @@ module.exports = function(config) {
         title: 'Aurora Platform',
         to: '/aurora',
         icon: 'Cloud',
-        description: 'The Aurora OpenShift Platform',
+        description: 'The Aurora Platform',
       },
       {
         title: 'Datasamarbeid',
         to: '/datasamarbeid-api-dokumentasjon',
         icon: 'Copy',
-        description: 'API-dokumentasjon for Datasamarbeid',
+        description: 'Grensesnitt for skatte- og inntektsopplysninger.',
       },
       {
         title: 'Folkeregisteret',
         to: '/folkeregisteret-api-dokumentasjon',
         icon: 'Skattetrekk',
-        description: 'API-dokumentasjon for FREG',
+        description:
+          'Modernisering av folkeregisteret er i pilot. Her er grensesnittene (API) dokumentert.',
       },
     ],
   }
