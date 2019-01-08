@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{197:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Skatteetaten.github.io",menu:[{href:"/",name:"Skatteetaten.github.io"}]}}},layoutContext:{}}}});
+//# sourceMappingURL=path----4f8262adedb295a07b43.js.map
