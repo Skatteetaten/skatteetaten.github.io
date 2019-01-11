@@ -41,12 +41,12 @@ node {
   }
 
   stage('Install dependencies') {
-    npm.run("ci")
+    npm.install()
   }
 
   stage('Install starter dependencies') {
     dir('gatsby-starter-skatteetaten/') {
-      npm.run("ci")
+      npm.install()
     }
   }
 
