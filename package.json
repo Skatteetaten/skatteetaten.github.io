@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd gatsby-starter-skatteetaten && npm start",
-    "build": "cd gatsby-starter-skatteetaten && npm run build",
-    "clean": "rimraf public",
+    "build": "npm run clean && cd gatsby-starter-skatteetaten && npm run build",
+    "clean": "rimraf public gatsby-starter-skatteetaten/public gatsby-starter-skatteetaten/.cache",
     "deploy": "npm run build && gh-pages -d public"
   },
   "repository": {
