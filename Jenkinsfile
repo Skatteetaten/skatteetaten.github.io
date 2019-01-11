@@ -14,11 +14,6 @@ fileLoader.withGit('https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.g
 }
 
 node {
-  if (env.BRANCH_NAME != "master") {
-    currentBuild.result = 'ABORTED'
-    error('Branch is not master')
-  }
-
   if (props.nodeVersion) {
     echo 'Using Node version: ' + props.nodeVersion
     npm.setVersion(props.nodeVersion)
