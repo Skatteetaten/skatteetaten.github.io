@@ -28,15 +28,15 @@ node {
       usernameVariable: 'GIT_USERNAME',
       passwordVariable: 'GIT_PASSWORD')]) {
         git.setGitConfig()
-        sh("git config --global credential.https://github.com.username ${env.GIT_USERNAME}")
-        sh("git config --global credential.helper '!echo password=\$GIT_PASSWORD; echo'")
+        sh("git config credential.https://github.com.username ${env.GIT_USERNAME}")
+        sh("git config credential.helper '!echo password=\$GIT_PASSWORD; echo'")
 
         sh("git submodule init")
         sh("git submodule update")
       }
     } finally {
-      sh("git config --global --unset credential.https://github.com.username")
-      sh("git config --global --unset credential.helper")
+      sh("git config --unset credential.https://github.com.username")
+      sh("git config --unset credential.helper")
     }
   }
 
