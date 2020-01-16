@@ -9,19 +9,25 @@ module.exports = function(config) {
     ],
     repos: [
       {
-        title: 'Aurora Platform',
+        heading: 'Aurora Platform',
         to: '/aurora',
         icon: 'Cloud',
         description: 'The Aurora Platform',
       },
       {
-        title: 'Datasamarbeid',
+        heading: 'Skatteetatens designsystem',
+        to: '/frontend-components',
+        icon: 'Edit',
+        description: 'Komponenter med Skatteetatens visuelle profil.',
+      },
+      {
+        heading: 'Datasamarbeid',
         to: '/datasamarbeid-api-dokumentasjon',
         icon: 'Copy',
         description: 'Grensesnitt for skatte- og inntektsopplysninger.',
       },
       {
-        title: 'Folkeregisteret',
+        heading: 'Folkeregisteret',
         to: '/folkeregisteret-api-dokumentasjon',
         icon: 'Skattetrekk',
         description:

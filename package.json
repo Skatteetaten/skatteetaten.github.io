@@ -2,7 +2,7 @@
   "name": "skatteetaten.github.io",
   "version": "1.0.0",
   "description": "Information about the Skatteetaten GitHub organisation, repositories and approaches to software",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd gatsby-starter-skatteetaten && npm start",
@@ -15,13 +15,18 @@
     "url": "git+https://github.com/Skatteetaten/skatteetaten.github.io.git"
   },
   "devDependencies": {
-    "gh-pages": "1.2.0",
-    "prettier": "^1.11.1",
-    "rimraf": "2.6.2"
+    "gh-pages": "2.2.0",
+    "prettier": "1.19.1",
+    "rimraf": "3.0.0"
   },
   "prettier": {
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5"
+  },
+  "dependencies": {
+    "@skatteetaten/frontend-components": "3.0.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   }
 }

@@ -1,18 +1,21 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Grid from 'aurora-frontend-react-komponenter/Grid'
-import NavigationTile from 'aurora-frontend-react-komponenter/NavigationTile'
+import Grid from '@skatteetaten/frontend-components/Grid'
+import NavigationTile from '@skatteetaten/frontend-components/NavigationTile'
 import { SingleColumnRow } from 'starter/components/Columns'
+import SkeBasis from '@skatteetaten/frontend-components/SkeBasis'
 
 const IndexPage = ({ data: { site } }) => (
-  <Grid>
-    <SingleColumnRow>
-      <h2>Velkommen til Skatteetatens github</h2>
-    </SingleColumnRow>
-    <SingleColumnRow>
-      <NavigationTile contents={site.siteMetadata.repos} />
-    </SingleColumnRow>
-  </Grid>
+  <SkeBasis style={{ margin: '0 25%' }}>
+    <Grid>
+      <SingleColumnRow>
+        <h2>Velkommen til Skatteetatens github</h2>
+      </SingleColumnRow>
+      <SingleColumnRow>
+        <NavigationTile contents={site.siteMetadata.repos} />
+      </SingleColumnRow>
+    </Grid>
+  </SkeBasis>
 )
 
 export default IndexPage
@@ -23,7 +26,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         repos {
-          title
+          heading
           to
           icon
           description
