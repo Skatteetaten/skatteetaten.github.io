@@ -1,0 +1,12 @@
+### IntelliJ ###
+*.ipr
+*.iml
+*.iws
+.idea
+
+# Project dependencies
+node_modules
+yarn-error.log
+
+# Build directory
+/build
