@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32270ab7.chunk.css",
+    "main.js": "/static/js/main.80d0995c.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.f4165ada.js",
+    "static/js/2.fe747b32.chunk.js": "/static/js/2.fe747b32.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.fe747b32.chunk.js.LICENSE.txt": "/static/js/2.fe747b32.chunk.js.LICENSE.txt",
+    "static/media/EnglishFlag.91934228.svg": "/static/media/EnglishFlag.91934228.svg",
+    "static/media/NorwegianFlag.36cf4a7f.svg": "/static/media/NorwegianFlag.36cf4a7f.svg",
+    "static/media/SamiFlag.7996b238.svg": "/static/media/SamiFlag.7996b238.svg",
+    "static/media/SkeIconfont.5cb82ca9.woff": "/static/media/SkeIconfont.5cb82ca9.woff",
+    "static/media/SkeIconfont.795dc4c6.eot": "/static/media/SkeIconfont.795dc4c6.eot",
+    "static/media/SkeIconfont.840af99b.svg": "/static/media/SkeIconfont.840af99b.svg",
+    "static/media/SkeIconfont.a342c87d.ttf": "/static/media/SkeIconfont.a342c87d.ttf",
+    "static/media/SkeIconfont.f6af47f6.woff2": "/static/media/SkeIconfont.f6af47f6.woff2",
+    "static/media/footerDekor.416cfac2.svg": "/static/media/footerDekor.416cfac2.svg",
+    "static/media/materialdesignicons-webfont.3584b5e5.eot": "/static/media/materialdesignicons-webfont.3584b5e5.eot",
+    "static/media/materialdesignicons-webfont.3a6518ff.woff": "/static/media/materialdesignicons-webfont.3a6518ff.woff",
+    "static/media/materialdesignicons-webfont.7df8d617.woff2": "/static/media/materialdesignicons-webfont.7df8d617.woff2",
+    "static/media/materialdesignicons-webfont.a7b7f475.ttf": "/static/media/materialdesignicons-webfont.a7b7f475.ttf",
+    "static/media/materialdesignicons-webfont.d45a5332.svg": "/static/media/materialdesignicons-webfont.d45a5332.svg",
+    "static/media/ske-logo-en.970efeaa.svg": "/static/media/ske-logo-en.970efeaa.svg",
+    "static/media/ske-logo-en.bcb9d04f.svg": "/static/media/ske-logo-en.bcb9d04f.svg",
+    "static/media/ske-logo-intern-en.970efeaa.svg": "/static/media/ske-logo-intern-en.970efeaa.svg",
+    "static/media/ske-logo-intern.18d37dae.svg": "/static/media/ske-logo-intern.18d37dae.svg",
+    "static/media/ske-logo.35b85e4b.svg": "/static/media/ske-logo.35b85e4b.svg",
+    "static/media/ske-logo.48366cbf.svg": "/static/media/ske-logo.48366cbf.svg",
+    "static/media/ske-logo.7f07b60a.svg": "/static/media/ske-logo.7f07b60a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4165ada.js",
+    "static/js/2.fe747b32.chunk.js",
+    "static/css/main.32270ab7.chunk.css",
+    "static/js/main.80d0995c.chunk.js"
+  ]
+}
