@@ -26,6 +26,10 @@ node("node-12") {
     npm.run("ci")
   }
 
+  stage("Build") {
+    npm.build()
+  }
+
   if (env.BRANCH_NAME == "master") {
     stage('Build & deploy to GitHub') {
       try {
