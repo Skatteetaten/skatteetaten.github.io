@@ -31,7 +31,7 @@ node("node-12") {
   }
 
   if (env.BRANCH_NAME == "master") {
-    stage('Build & deploy to GitHub') {
+    stage('Publish to GitHub pages') {
       try {
         withCredentials([usernamePassword(credentialsId: props.credentialsId,
         usernameVariable: 'GIT_USERNAME',
