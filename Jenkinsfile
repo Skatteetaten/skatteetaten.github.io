@@ -1,10 +1,7 @@
 #!/usr/bin/env groovy
 
 def props = [
-  credentialsId: 'github',
-  iq: false,
-  nodeVersion: "12",
-  applicationType: "nodejs"
+  credentialsId: 'github'
 ]
 
 def git
@@ -15,7 +12,7 @@ fileLoader.withGit('https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.g
   npm = fileLoader.load('node.js/npm')
 }
 
-node {
+node("node-12") {
   stage('Clean Workspace') {
     deleteDir()
     sh 'ls -lah'
