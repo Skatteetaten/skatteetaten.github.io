@@ -1,7 +1,8 @@
 #!/usr/bin/env groovy
 
 def props = [
-  credentialsId: 'github'
+  credentialsId: 'github',
+  nodeSelector: 'node-12'
 ]
 
 def git
@@ -12,7 +13,7 @@ fileLoader.withGit('https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.g
   npm = fileLoader.load('node.js/npm')
 }
 
-node("node-12") {
+node(props.nodeSelector) {
   stage('Clean Workspace') {
     deleteDir()
     sh 'ls -lah'
@@ -32,16 +33,8 @@ node("node-12") {
 
   if (env.BRANCH_NAME == "master") {
     stage('Publish to GitHub pages') {
-      try { 
-        withCredentials([usernamePassword(credentialsId: props.credentialsId, usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
-          sh("git config --global credential.https://github.com.username ${env.GIT_USERNAME}")
-          sh("git config --global credential.helper '!echo password=\$GIT_PASSWORD; echo'")
-
-          sh("GIT_ASKPASS=true npm run deploy")
-        }
-      } finally {
-        sh("git config --global --unset credential.https://github.com.username")
-        sh("git config --global --unset credential.helper")
+      git.withGitHubCredentials(props.credentialsId) {
+        sh("GIT_ASKPASS=true npm run deploy")
       }
     }
   }
