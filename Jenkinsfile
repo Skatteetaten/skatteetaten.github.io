@@ -2,7 +2,8 @@
 
 def props = [
   credentialsId: 'github',
-  iq: false
+  iq: false,
+  nodeVersion: "12"
 ]
 
 def git
