@@ -3,7 +3,8 @@
 def props = [
   credentialsId: 'github',
   iq: false,
-  nodeVersion: "12"
+  nodeVersion: "12",
+  applicationType: "nodejs"
 ]
 
 def git
