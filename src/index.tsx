@@ -23,17 +23,17 @@ const repos = [
     description: 'Komponenter med Skatteetatens visuelle profil.',
   },
   {
-    heading: 'Datasamarbeid',
+    heading: 'Skatteetatens delingstjenester',
     to: '/datasamarbeid-api-dokumentasjon',
     icon: 'Copy',
-    description: 'Grensesnitt for skatte- og inntektsopplysninger.',
+    description: 'Grensesnitt for delingstjenester fra Skatteetaten.',
   },
   {
     heading: 'Folkeregisteret',
     to: '/folkeregisteret-api-dokumentasjon',
     icon: 'Skattetrekk',
     description:
-      'Modernisering av folkeregisteret er i pilot. Her er grensesnittene (API) dokumentert.',
+      'Grensesnitt for Skatteetatens delingstjenester for Folkeregisteret.',
   },
 ];
 
