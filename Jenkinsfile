@@ -11,6 +11,7 @@ def overrides = [
     versionStrategy: [
       [ branch: 'master', versionHint: '1']
     ],
+    deployTo: null,
     openShiftBuild: false,
     npmInstallCommand: "ci",
     nodeVersion: "18",
