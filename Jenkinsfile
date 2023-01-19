@@ -7,6 +7,7 @@ def overrides = [
     iqOrganizationName: "Team AOS",
     iqBreakOnUnstable: true,
     iqEmbedded: true,
+    lineCoverageReport: false,
     versionStrategy: [
       [ branch: 'master', versionHint: '1']
     ],
