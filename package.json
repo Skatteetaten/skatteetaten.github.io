@@ -1,5 +1,6 @@
 {
   "name": "skatteetaten.github.io",
+  "groupId": "no.skatteetaten.aurora",
   "version": "1.0.0",
   "description": "Information about the Skatteetaten GitHub organisation, repositories and approaches to software",
   "license": "Apache-2.0",
