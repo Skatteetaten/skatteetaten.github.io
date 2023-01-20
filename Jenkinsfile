@@ -16,8 +16,7 @@ def overrides = [
     npmInstallCommand: "ci",
     nodeVersion: "18",
     github                 : [
-      enabled              : true,
-      repoUrl              : "https://github.com/Skatteetaten/skatteetaten.github.io.git",
+      enabled              : enabled: env.BRANCH_NAME == "master",,
       deployToGHPagesCmd   : "npm run deploy"
     ]
 ]
