@@ -14,8 +14,12 @@ interface LayoutProps {
 
 const links: LinkGroupProps['links'] = [
   {
+    path: 'https://www.skatteetaten.no',
+    text: 'Skatteetaten.no',
+  },
+  {
     path: 'https://github.com/Skatteetaten',
-    text: 'Github',
+    text: 'Github Skatteetaten',
   },
   {
     path: 'https://uustatus.no/nb/erklaringer/publisert/e92f8e05-b13f-4fb8-a1bf-e9f5e6553c1d',
