@@ -16,7 +16,7 @@ def overrides = [
     npmInstallCommand: "ci",
     nodeVersion: "18",
     github                 : [
-      enabled              : enabled: env.BRANCH_NAME == "master",,
+      enabled              : env.BRANCH_NAME == "master",
       deployToGHPagesCmd   : "npm run deploy"
     ]
 ]
