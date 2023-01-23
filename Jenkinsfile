@@ -8,6 +8,7 @@ def overrides = [
     iqBreakOnUnstable: true,
     iqEmbedded: true,
     lineCoverageReport: false,
+    credentialsId: "github",
     versionStrategy: [
       [ branch: 'master', versionHint: '1']
     ],
