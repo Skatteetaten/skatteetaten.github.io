@@ -12,3 +12,22 @@
 .layout-content {
   flex: 1;
 }
+
+.footer-linkgroup li i {
+  color: #fff;
+}
+
+.footer-linkgroup li a {
+  color: #fff;
+  border-bottom: none;
+}
+
+.footer-linkgroup li:hover i {
+  color: #fff;
+}
+
+.footer-linkgroup li:hover a {
+  color: rgb(111, 44, 63);
+  border-bottom: none;
+  background: #fff;
+}

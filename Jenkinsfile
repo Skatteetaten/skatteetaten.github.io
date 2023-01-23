@@ -1,45 +1,28 @@
 #!/usr/bin/env groovy
+def jenkinsfile
 
-def props = [
-  credentialsId: 'github',
-  nodeSelector: 'node-12'
+def overrides = [
+    scriptVersion  : 'v7',
+    pipelineScript: 'https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.git',
+    iqOrganizationName: "Team AOS",
+    iqBreakOnUnstable: true,
+    iqEmbedded: true,
+    lineCoverageReport: false,
+    versionStrategy: [
+      [ branch: 'master', versionHint: '1']
+    ],
+    deployTo: null,
+    openShiftBuild: false,
+    npmInstallCommand: "ci",
+    nodeVersion: "18",
+    github                 : [
+      enabled              : env.BRANCH_NAME == "master",
+      deployToGHPagesCmd   : "npm run deploy"
+    ]
 ]
 
-def git
-def npm
-
-fileLoader.withGit('https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.git', 'v7') {
-  git = fileLoader.load('git/git')
-  npm = fileLoader.load('node.js/npm')
+fileLoader.withGit(overrides.pipelineScript, overrides.scriptVersion) {
+  jenkinsfile = fileLoader.load('templates/webleveransepakke')
 }
 
-node(props.nodeSelector) {
-  stage('Clean Workspace') {
-    deleteDir()
-    sh 'ls -lah'
-  }
-
-  stage('Checkout') {
-    checkout scm
-  }
-
-  stage('Install dependencies') {
-    npm.run("ci")
-  }
-
-  stage("Build") {
-    npm.build()
-  }
-
-  if (env.BRANCH_NAME == "master") {
-    stage('Publish to GitHub pages') {
-      git.withGitHubCredentials(props.credentialsId) {
-        sh("GIT_ASKPASS=true npm run deploy")
-      }
-    }
-  }
-
-  stage('Clear workspace') {
-    step([$class: 'WsCleanup'])
-  }
-}
+jenkinsfile.run(overrides.scriptVersion, overrides)

@@ -1,10 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {
-  SkeBasis,
-  Grid,
-  NavigationTile,
-} from '@skatteetaten/frontend-components';
+import { createRoot } from 'react-dom/client';
+import { SkeBasis } from '@skatteetaten/frontend-components/SkeBasis';
+import { Grid } from '@skatteetaten/frontend-components/Grid';
+import { NavigationTile } from '@skatteetaten/frontend-components/NavigationTile';
 import { Layout } from './components/Layout';
 import { SingleColumnRow } from './components/Columns';
 import './index.css';
@@ -37,7 +34,9 @@ const repos = [
   },
 ];
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root')!);
+
+root.render(
   <SkeBasis>
     <Layout title="Skatteetaten.github.io">
       <Grid>
@@ -49,6 +48,5 @@ ReactDOM.render(
         </SingleColumnRow>
       </Grid>
     </Layout>
-  </SkeBasis>,
-  document.getElementById('root')
+  </SkeBasis>
 );
