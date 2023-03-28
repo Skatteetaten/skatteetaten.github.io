@@ -20,7 +20,7 @@ const repos = [
     description: 'Komponenter med Skatteetatens visuelle profil.',
   },
   {
-    heading: 'Skatteetatens API'er',
+    heading: "Skatteetatens API'er",
     to: '/api-dokumentasjon',
     icon: 'Copy',
     description: 'Grensesnitt for delingstjenester fra Skatteetaten.',
