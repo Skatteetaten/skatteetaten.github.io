@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3280b46a.css",
-    "main.js": "/static/js/main.d5defe75.js",
+    "main.js": "/static/js/main.5dbb47da.js",
     "static/media/logoLSO.svg": "/static/media/logoLSO.a7b473176a33515dc3dd1cfd7054533b.svg",
     "static/media/logoSKE.svg": "/static/media/logoSKE.35b85e4b8fedebffe71b9be2183b9594.svg",
     "static/media/SkeIconfont.woff": "/static/media/SkeIconfont.cec7e2416c2557604067.woff",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.3280b46a.css",
-    "static/js/main.d5defe75.js"
+    "static/js/main.5dbb47da.js"
   ]
 }
