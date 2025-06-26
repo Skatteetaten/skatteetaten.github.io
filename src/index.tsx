@@ -65,10 +65,18 @@ root.render(
     <Layout title="Skatteetaten.github.io">
       <Grid>
         <SingleColumnRow>
-          <h2>Velkommen til Skatteetatens github</h2>
+          <h2 className="text-center">Velkommen til Skatteetatens Github</h2>
         </SingleColumnRow>
         <SingleColumnRow>
           <NavigationTile contents={repos} />
+        </SingleColumnRow>
+        <SingleColumnRow>
+          <div className="text-center">
+            Se all dokumentasjon på Github fra Skatteetaten:{' '}
+            <a href="https://github.com/Skatteetaten">
+              https://github.com/Skatteetaten
+            </a>
+          </div>
         </SingleColumnRow>
       </Grid>
     </Layout>
