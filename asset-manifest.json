@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.3280b46a.css",
-    "main.js": "/static/js/main.5dbb47da.js",
+    "main.css": "/static/css/main.2eca94af.css",
+    "main.js": "/static/js/main.5b4286d9.js",
+    "static/media/ink-logo.svg": "/static/media/ink-logo.0736fbe9822e35360ee45a8a8e45e5f7.svg",
+    "static/media/logoINK.svg": "/static/media/logoINK.d1a7e087316f00ae7f8db732c6bce712.svg",
     "static/media/logoLSO.svg": "/static/media/logoLSO.a7b473176a33515dc3dd1cfd7054533b.svg",
     "static/media/logoSKE.svg": "/static/media/logoSKE.35b85e4b8fedebffe71b9be2183b9594.svg",
     "static/media/SkeIconfont.woff": "/static/media/SkeIconfont.cec7e2416c2557604067.woff",
@@ -9,9 +11,7 @@
     "static/media/ske-logo-intern-en.svg": "/static/media/ske-logo-intern-en.970efeaabcfe4cebc7d9110b68fd5040.svg",
     "static/media/logoSKEen.svg": "/static/media/logoSKEen.bcb9d04f826249ffe25479bf8e7d8336.svg",
     "static/media/ske-logo.svg": "/static/media/ske-logo.48366cbf5aa3e8eb6501af8a24ffa42a.svg",
-    "static/media/ink-logo.svg": "/static/media/ink-logo.e22095aa235c2ec1d0e4acc11644c0ad.svg",
     "static/media/logoINKen.svg": "/static/media/logoINKen.30ec85b3c1d7f2d94acffdd9b4ba0533.svg",
-    "static/media/logoINK.svg": "/static/media/logoINK.a651227cde6d15944de212b1f4baa8b0.svg",
     "static/media/ske-logo-intern.svg": "/static/media/ske-logo-intern.18d37dae6d2712ef16ebe5c164c7c66f.svg",
     "static/media/separatorINK.svg": "/static/media/separatorINK.1092743ca7f63a36f9819701789e7a9a.svg",
     "static/media/separatorLSO.svg": "/static/media/separatorLSO.0cefc8fd06d05196622bf74297bfdedb.svg",
@@ -19,7 +19,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.3280b46a.css",
-    "static/js/main.5dbb47da.js"
+    "static/css/main.2eca94af.css",
+    "static/js/main.5b4286d9.js"
   ]
 }
