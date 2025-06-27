@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2eca94af.css",
-    "main.js": "/static/js/main.5b4286d9.js",
+    "main.js": "/static/js/main.4a0abcc6.js",
     "static/media/ink-logo.svg": "/static/media/ink-logo.0736fbe9822e35360ee45a8a8e45e5f7.svg",
     "static/media/logoINK.svg": "/static/media/logoINK.d1a7e087316f00ae7f8db732c6bce712.svg",
     "static/media/logoLSO.svg": "/static/media/logoLSO.a7b473176a33515dc3dd1cfd7054533b.svg",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.2eca94af.css",
-    "static/js/main.5b4286d9.js"
+    "static/js/main.4a0abcc6.js"
   ]
 }
