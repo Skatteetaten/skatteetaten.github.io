@@ -8,6 +8,43 @@ import './index.css';
 
 const repos = [
   {
+    heading: 'Skatteetatens API-er',
+    to: '/api-dokumentasjon',
+    icon: 'Copy',
+    description: 'Dokumentasjon av API-er fra Skatteetaten',
+  },
+  {
+    heading: 'Folkeregisteret API-er',
+    to: '/folkeregisteret-api-dokumentasjon',
+    icon: 'Folkeregister',
+    description: 'Dokumentasjon av API-er for Folkeregisteret',
+  },
+  {
+    heading: 'Skattemelding',
+    to: 'https://github.com/Skatteetaten/skattemeldingen',
+    icon: 'Skattetrekk',
+    description: 'Kode og spesifikasjoner for skattemeldingen',
+  },
+  {
+    heading: 'Trekktabell',
+    to: 'https://github.com/Skatteetaten/trekktabell',
+    icon: 'Skattetrekk',
+    description: 'Dokumentasjon av trekkrutine for beregning av forskuddstrekk',
+  },
+  {
+    heading: 'Beta API-er',
+    to: '/beta-apier',
+    icon: 'Copy',
+    description:
+      'Dokumentasjon av API-er fra Skatteetaten som er under utvikling',
+  },
+  {
+    heading: 'SAF-T',
+    to: 'https://github.com/Skatteetaten/saf-t',
+    icon: 'Skattetrekk',
+    description: 'Dokumentasjon av norske SAF-T skjema, eksempelfiler osv.',
+  },
+  {
     heading: 'Aurora Platform',
     to: '/aurora',
     icon: 'Cloud',
@@ -19,19 +56,6 @@ const repos = [
     icon: 'Edit',
     description: 'Komponenter med Skatteetatens visuelle profil.',
   },
-  {
-    heading: "Skatteetatens API'er",
-    to: '/api-dokumentasjon',
-    icon: 'Copy',
-    description: 'Grensesnitt for delingstjenester fra Skatteetaten.',
-  },
-  {
-    heading: 'Folkeregisteret',
-    to: '/folkeregisteret-api-dokumentasjon',
-    icon: 'Skattetrekk',
-    description:
-      'Grensesnitt for Skatteetatens delingstjenester for Folkeregisteret.',
-  },
 ];
 
 const root = createRoot(document.getElementById('root')!);
@@ -41,10 +65,18 @@ root.render(
     <Layout title="Skatteetaten.github.io">
       <Grid>
         <SingleColumnRow>
-          <h2>Velkommen til Skatteetatens github</h2>
+          <h2 className="text-center">Velkommen til Skatteetatens Github</h2>
         </SingleColumnRow>
         <SingleColumnRow>
           <NavigationTile contents={repos} />
+        </SingleColumnRow>
+        <SingleColumnRow>
+          <div className="text-center">
+            Se all dokumentasjon på Github fra Skatteetaten:{' '}
+            <a href="https://github.com/Skatteetaten">
+              https://github.com/Skatteetaten
+            </a>
+          </div>
         </SingleColumnRow>
       </Grid>
     </Layout>

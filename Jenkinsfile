@@ -15,7 +15,7 @@ def overrides = [
     deployTo: null,
     openShiftBuild: false,
     npmInstallCommand: "ci",
-    nodeVersion: "18",
+    nodeVersion: "22",
     github                 : [
       enabled              : env.BRANCH_NAME == "master",
       deployToGHPagesCmd   : "npm run deploy"
