@@ -52,7 +52,7 @@ const repos = [
   },
   {
     heading: 'Skatteetatens designsystem',
-    to: '/frontend-components',
+    to: '/designsystemet',
     icon: 'Edit',
     description: 'Komponenter med Skatteetatens visuelle profil.',
   },
