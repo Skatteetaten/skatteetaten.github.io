@@ -21,7 +21,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@skatteetaten/frontend-components": "17.0.0",
+    "@skatteetaten/frontend-components": "17.1.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
